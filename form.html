@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Survey</title>
+</head>
+
+<body>
+    <header class="logo"> Feedback KFC Batam Center</header>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="#"> Sosial Media </a></li>
+            <li><a href="#"> Paket Ulang Tahun</a></li>
+        </ul>
+
+
+    </nav>
+
+    <form  method="get" action="order.html">
+        <label class="label_form" for="no_store"> Store no : </label>
+        <input type="number" id="no_store" autofocus required min="1" max="999">
+
+        <br><br>
+        <label class="label_form" for="tanggal"> Tanggal : </label>
+        <input type="date" id="tanggal" required>
+
+        <br><br>
+        <label class="label_form" for="waktu"> Waktu : </label>
+        <input type="time" id="waktu" required>
+
+        <br><br>
+        <label class="label_form" for="no_survey" > Nomor Survey : </label>
+        <input type="text" id="no_survey" autocomplete="off" required>
+
+        <br><br>
+        <button  type="submit">
+            lanjutkan
+        </button>
+
+
+
+
+    </form>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo {
+    font-size: xx-large;
+    color: white;
+    padding: 30px 0 30px 10px;
+    text-align: center;
+    background-color: rgba(196, 10, 10, 0.925);
+    text-shadow: 1px;
+    width: 100%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(226, 29, 29);
+    border: 1px solid gainsboro;
+    align-items: center;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+
+
+
+
+}
+
+nav li {
+    float: left;
+    width: 100%;
+
+
+
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity: 0.9;
+    background-color: blue;
+}
+
+
+
+.konten {
+
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    display: flex;
+
+
+
+
+}
+
+
+
+
+form {
+    width: 100px;
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.label_form {
+    display: block;
+
+}
+
+.huruf_link {
+    color: black;
+    text-decoration: none;
+
+}
+
+/* jika di buka di laptop */
+@media(max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+
+}
+
+/* jika di buka di tablet */
+@media(max-width: 758px) {
+    html {
+        font-size: 62.5%;
+    }
+
+}
+
+/* jika di buka di handphone */
+@media(max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+
+}
